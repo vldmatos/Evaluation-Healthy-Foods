@@ -3,11 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D130A07E-BB9B-4733-8155-CFB0F0291549}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{D130A07E-BB9B-4733-8155-CFB0F0291549}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluationHealthyFoods", "src\EvaluationHealthyFoods\EvaluationHealthyFoods.csproj", "{B577BD30-3F3D-4A96-8613-A7804513547D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvaluationHealthyFoods", "Source\EvaluationHealthyFoods\EvaluationHealthyFoods.csproj", "{B577BD30-3F3D-4A96-8613-A7804513547D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StarRatings", "src\StarRatings\StarRatings.csproj", "{65C5C622-80CF-4546-A373-B64011370282}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StarRatings", "Source\StarRatings\StarRatings.csproj", "{65C5C622-80CF-4546-A373-B64011370282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{E449CD91-124D-4CB0-BF61-64A226951A58}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
